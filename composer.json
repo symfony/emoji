@@ -20,9 +20,9 @@
         "ext-intl": "*"
     },
     "require-dev": {
-        "symfony/filesystem": "^7.1",
-        "symfony/finder": "^6.4|^7.0",
-        "symfony/var-exporter": "^6.4|^7.0"
+        "symfony/filesystem": "^7.1|^8.0",
+        "symfony/finder": "^6.4|^7.0|^8.0",
+        "symfony/var-exporter": "^6.4|^7.0|^8.0"
     },
     "autoload": {
         "psr-4": { "Symfony\\Component\\Emoji\\": "" },

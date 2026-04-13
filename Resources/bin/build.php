@@ -221,7 +221,7 @@ final class Builder
                 if (!str_starts_with($filename, 'emoji-')) {
                     continue;
                 }
-                for ($i = 0; ord($k[$i]) < 128 || "\xC2" === $k[$i]; ++$i) {
+                for ($i = 0; \ord($k[$i]) < 128 || "\xC2" === $k[$i]; ++$i) {
                 }
                 for ($j = $i; isset($k[$j]) && !isset($firstChars[$k[$j]]); ++$j) {
                 }
